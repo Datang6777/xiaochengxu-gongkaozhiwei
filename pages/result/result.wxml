@@ -1,0 +1,31 @@
+
+<!--pages/result/result.wxml-->
+<view class="nav">
+  <!-- <view class="left">以下岗位
+    <text style="font-size:50rpx;font-weight: 440;color:#48C23D">符合</text>您的个人条件</view>
+  <view class="right">请筛选您
+    <text style="font-size:50rpx;font-weight: 440;color:#48C23D">心仪</text>的部门</view> -->
+	<image src="sertopimg.png" />
+</view>
+<view class="table">
+  <view class="tab">
+    <text style="width:161rpx;">部门名称</text>
+    <text style="width:240rpx;">用人司局</text>
+    <text style="width:115rpx;">招录人数</text>
+    <text style="width:110rpx;">详情</text>
+  </view>
+  <view class="result" wx:for="{{result}}">
+    <text style="width:161rpx;">{{item.label}}</text>
+    <text style="width:240rpx;">{{item.yrsj}}</text>
+    <text style="width:115rpx;">{{item.zkrs}}</text>
+    <text style="width:110rpx;" data-id="{{item.id}}" bindtap="RedirectHandle">详情</text>
+  </view>
+</view>
+<view class="fanye">
+	<view class="fanyeprev" data-p="{{page}}" bindtap="prePage">上一页</view>
+	<view class="fanyenum">{{page}}/{{alow}}</view>
+	<view class="fanyenext" data-p="{{page}}" bindtap="nextPage">下一页</view>
+</view>
+<loading hidden="{{loadHidden}}" bindchange="loadChange">
+  数据加载中...
+</loading>

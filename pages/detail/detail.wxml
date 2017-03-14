@@ -1,0 +1,36 @@
+<view>
+ <!-- <view class="header">职位详情页:</view> -->
+ <view class="mians">
+	<view class="mianst1">选择它吗？</view>
+	<view class="mianst2">去年<view>{{msfs0}}</view>分进面试</view>
+ </view>
+ <view class="linian">
+ <view class="linian2">历年报考录取走势</view></view>
+
+<view class="chart-iframe">
+    <canvas disable-scroll="true" style="width:{{myCanvasStyle.width}}px; height: {{myCanvasStyle.height}}px;"  bindtouchstart="myCanvasTouchStart" bindtouchmove="myCanvasTouchMove" bindtouchend="myCanvasTouchEnd" canvas-id="myCanvas"></canvas>
+</view>
+  <block wx:for="{{d}}">
+
+    <view class="table">
+      <view><view class="line">部门名称 : </view><view class="lineval">{{item.label}}</view></view>
+      <view><view class="line">职位简介: </view><view class="lineval">{{item.zwjj}}</view></view>
+      <view><view class="line">招考人数:</view><view class="lineval">{{item.zkrs}} </view></view>
+      <view><view class="line">面试人数:</view><view class="lineval">{{item.msrs}} </view></view>
+      <view><view class="line"> 用人司局 : </view><view class="lineval">{{item.yrsj}}</view></view>
+      <view><view class="line">职位级别:</view><view class="lineval">{{item.zwmj}} </view></view>
+      <view><view class="line">职位代码:</view><view class="lineval">{{item.zwdm}} </view></view>
+      <view><view class="line">考试类别:</view><view class="lineval">{{item.kslb}} </view></view>
+      <view><view class="line">专业:</view><view class="lineval">{{item.zy}} </view></view>
+      <view><view class="line">学历:</view><view class="lineval">{{item.xl}}  </view></view>
+      <view><view class="line">政治面貌:</view><view class="lineval">{{item.zzmm}}</view></view>
+      <view><view class="line">基层年限:</view><view class="lineval">{{item.jcnx}}</view></view>
+      <view><view class="line">备注:</view><view class="lineval">{{item.bz}}</view></view>
+      <view><view class="line">电话:</view><view class="lineval">{{item.dianhua}}</view></view>
+      <view><view class="line">网址:</view><view class="lineval">{{item.https}}</view></view>
+      <view class="state">免责声明：此职位信息只为各位考生提供报名参考之用,请以人事部正式公布的数据为准</view>
+    </view>
+  
+<view class="qita1" data-id="{{item.id}}" bindtap="send">发送到手机</view><view class="qita2" bindtap="qita">查看其它职位</view>
+ <!-- <view class="tishi">***温馨提示：点击右上角可以分享给朋友！</view> --></block>
+</view>

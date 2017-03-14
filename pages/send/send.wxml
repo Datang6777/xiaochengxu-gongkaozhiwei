@@ -1,0 +1,6 @@
+<view>
+  <form bindsubmit="formSubmit">
+    <input class="send" name="mobile" placeholder="输入您想发送的手机号" />
+    <button class="submit" data-id="{{id}}" disabled="{{disabled}}" formType="submit" loading="{{btnLoading}}"> {{loginBtnTxt}} </button>
+  </form>
+</view>

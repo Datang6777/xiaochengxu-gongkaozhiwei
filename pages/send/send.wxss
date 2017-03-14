@@ -1,0 +1,6 @@
+.send{
+    width:678rpx;height: 98rpx;margin:36rpx auto 0;font-size: 32rpx;background: #fff;border:solid 1px #eae9ec;color:#333;font-weight: bold;text-align: center;
+}
+.submit{
+	width:680rpx;height: 100rpx;margin:56rpx auto 115rpx;font-size: 42rpx;background: #3b8ffe;color:#fff;line-height: 100rpx;
+}

@@ -1,0 +1,97 @@
+/**index.wxss**/
+page{background: #fbfbfb;min-height: 100%;}
+.chart-iframe{
+  margin:0 10rpx 10rpx;
+  text-align: center;
+  background:#fff;
+}
+.nav {
+  height: 240rpx;
+  margin-top: 20rpx;
+  border-bottom: 1px #e5e5e5 solid;
+  font-family: "Microsoft YaHei", tahoma, arial, Simsun;
+  color: red;
+}
+.linian{
+width:100%;
+padding-top:30rpx;
+height:30rpx;
+background:#fff;
+margin-top:20rpx;
+}
+.linian2{
+text-align:center;
+}
+
+.header {
+  font-family: "Microsoft YaHei", tahoma, arial, Simsun;
+  font-size: 36rpx;
+  background: #fff;
+  margin:15px 0 0 15px;
+}
+.mians{
+  font-family: "Microsoft YaHei", tahoma, arial, Simsun;padding:30rpx 0;margin:30rpx 0 0;background: #fff;border-top:solid 1px #eee;border-bottom:solid 1px #eee;
+}
+.mianst1{
+  color:#3b8ffe;font-size: 30rpx;line-height: 30rpx;padding-left:15px;
+}
+.mianst2{
+  color:#333;font-size: 30rpx;text-align: center;margin-top:10px;
+}
+.mianst2 view{
+  color:#3b8ffe;font-size: 90rpx;line-height: 90rpx;display: inline-block;
+}
+
+.left {
+  float: left;
+  width: 80%;
+  margin-top: 40rpx;
+  margin-left: 8%;
+}
+
+.right {
+  float: right;
+  margin-top: 40rpx;
+  margin-right: 8%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+text {
+  display: block;
+}
+
+
+.tishi {
+   text-align: center;
+  color: red;
+  font-size: 12px;
+}
+.line{float:left;width:30%;height: 60px;line-height: 60px;text-align: center;background: #f8f8f8;border-right:solid 1px #eae9ec;border-bottom:solid 1px #eae9ec;font-size:32rpx;}
+.lineval{float:left;width:69%;height: 60px;line-height: 60px;text-align: center;border-bottom:solid 1px #eae9ec;font-size:32rpx;background: #fff;}
+.table>view{overflow:hidden;font-family: "Microsoft YaHei", tahoma, arial, Simsun;background:#fff;}
+.table{width:698rpx;margin:30rpx auto 0;border:solid 1px #eae9ec;}
+.state{font-size: 32rpx;padding:10px;}
+.qita1{width:49.8%;float:left;height: 98rpx;line-height: 98rpx;text-align: center;background: #3b8ffe;color:#fff;font-size: 36rpx;margin-top:80rpx;}
+.qita2{width:49.8%;float:right;height: 98rpx;line-height: 98rpx;text-align: center;background: #3b8ffe;color:#fff;font-size: 36rpx;margin-top:80rpx;}
+
+

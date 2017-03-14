@@ -1,0 +1,41 @@
+<view class="page">
+  <view class="header-1">
+    <image src="images/topimg.png" />
+  </view>
+<view class="headertwo">截止2016年11月25日报名人数为1283231人</view>
+  <form bindsubmit="formSubmit">
+    <view class="sections">
+      <view class="section__title"></view>
+      <view class="section">
+        <picker name="diqu" bindchange="bindPickerChange1" value="{{index}}" range="{{diqu}}">
+          <view class="picker">
+            报考地区：{{diqu[index]}}<text>↓</text>
+          </view>
+        </picker>
+      </view>
+      <view class="section">
+        <picker name="gongzuo" bindchange="bindPickerChange2" value="{{index2}}" range="{{gongzuo}}">
+          <view class="picker">
+            工作经历：{{gongzuo[index2]}}<text>↓</text>
+          </view>
+        </picker>
+      </view>
+      <view class="section">
+        <picker name="zhengzhi" bindchange="bindPickerChange3" value="{{index3}}" range="{{zhengzhi}}">
+          <view class="picker">
+            政治面貌：{{zhengzhi[index3]}}<text>↓</text>
+          </view>
+        </picker>
+      </view>
+      <view class="section">
+        <picker name="xueli" bindchange="bindPickerChange4" value="{{index4}}" range="{{xueli}}">
+          <view class="picker">
+            学历：{{xueli[index4]}}<text>↓</text>
+          </view>
+        </picker>
+      </view>
+      <input style="" class="form-control" name="zy" placeholder="输入您想查询的专业" />
+    </view>
+    <button class="submit" disabled="{{disabled}}" formType="submit" loading="{{btnLoading}}"> {{loginBtnTxt}} </button>
+  </form>
+</view>

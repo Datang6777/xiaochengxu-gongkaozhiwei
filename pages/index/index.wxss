@@ -1,0 +1,92 @@
+/*@import '../index2/index.wxss';
+*/
+
+.page {
+  font-family: "Microsoft YaHei", tahoma, arial, Simsun;
+  min-height: 100%;background:#fbfbfb;
+}
+
+.header-1 {
+  width: 100%;
+  background-color: #09f;
+  height: auto;
+}
+
+.header-1 image {
+  width: 100%;
+  height: 307rpx;
+  display: block;
+}
+
+.xiala {
+  margin-right: 20em;
+}
+
+.headerone {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.headertwo {
+  font-size: 36rpx;
+  color: #f60;
+  padding: 58rpx 0 0 0;
+  line-height: 36rpx;
+  text-align: center;
+}
+
+.section {
+  width: 680rpx;
+  height: 100rpx;
+  background: url('https://proc.huatu.com/0zw/images/selectbj.png ') no-repeat;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 100rpx;
+  margin: 36rpx auto 0;
+  background-size: 100% 100%;
+}
+
+.picker {
+  margin-left: 30px;
+}
+
+.form-control {
+  width: 678rpx;
+  height: 98rpx;
+  margin: 36rpx auto 0;
+  font-size: 32rpx;
+  background: #fff;
+  border: solid 1px #eae9ec;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+#show {
+  text-align: center;
+  font-size: 60rpx;
+  display: block;
+  color: #fff;
+  background-color: green;
+  padding: 10rpx 0;
+}
+
+.selected {
+  background-color: pink;
+}
+
+.submit {
+  width: 680rpx;
+  height: 100rpx;
+  margin: 56rpx auto 165rpx;
+  font-size: 32rpx;
+  background: #3b8ffe;
+  color: #fff;
+  line-height: 100rpx;
+}
+
+.result {
+  background-color: red;
+}

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result",
+    "pages/detail/detail",
+    "pages/send/send"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3992f5",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "公考职位查询",
+    "backgroundColor": "white",
+    "backgroundTextStyle": "light"
+  }
+}
